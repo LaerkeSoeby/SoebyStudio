@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SøbyStudio - Priser</title>
+
+    <!-- Bootstrap komponenter er tilføjet-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/zev0pxw.css">
+</head>
+
+<body>
+    <!-- navbar template fra https://getbootstrap.com/docs/3.3/components/#navbarbootstrap - med ændringer -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Logomark/primary.png" class="img-responsive">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="ydelser.html">Ydelser</a></li>
+                    <li><a href="priser.html">Priser</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="om.html">Om</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">
+                            <img src="img/ikoner/insta.png" class="img-responsive">
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/ikoner/facebook.png" class="img-responsive">
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/ikoner/linkedin.png" class="img-responsive">
+                        </a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <section class="bg-primary">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2"></div>
+                <div class="col-lg-8 col-md-6 col-xs-12 header">
+                    <h1 class="text-primary  text-center">Skal vi samarbejde om at få 
+                        din virksomhed til næste niveau?</h1>
+                    <h4 class="text-center">Alle virksomheder er forskellige, de har forskellige behov og udgangspunkter. Der er 
+                        af den grund ikke én fast løsning. Derfor får du hos mig et skræddersyet forløb, som 
+                        passer til din virksomhed. Jeg går op i ærlighed og ordentlighed, så nedenfor kan du 
+                        få et lille overblik over eksempler på priser.
+                    </h4>
+                        <div class="text-center">
+                            <h3 class="text-primary">I tvivl om hvad din virksomhed har brug for?</h3>
+                            <button type="button" class="btn btn-primary btn-lg text-center" onclick="kontakt()">KONTAKT MIG</button>
+                        </div>
+                </div>
+    </section>
+
+    <section class="section">        
+        <div class="row container-fluid">
+           
+            <div class="col-lg-3 col-xs-12">
+                <img alt="digital" src="img/ikoner/digital.png" class="img-responsive">
+                <p>Kunderejsen og brugeroplevelsen er de vigtigste elementer når vi snakker digitale produkter. Sammensæt det med unikt design tilpasset din virksomhed - og du har opskriften på et bæredygtigt digitalt univers. </p>
+            <h6 class="text-center">Hjemmeside design <br>
+                App Design </h6>
+                <h6 class="text-center text-primary">Fra 5000,-</h6>
+                <h6 class="text-center">Web banner design</h6>
+                    <h6 class="text-center text-primary">Fra 800,-</h6>
+            
+            </div>
+            <div class="col-lg-3 col-xs-12">
+                <img alt="digital" src="img/ikoner/branding.png" class="img-responsive">
+                <p>En knivskarp og genkendelig brand identitet, er et troværdigt brand.
+                    Det er afgørende for at skille sig ud og blive bemærket. 
+                    Skil dig ud og bliv husket; skab salg. 
+                    Lad os løfte din virksomhed sammen!</p>
+                    <h6 class="text-center">Visuel identitet <br>
+                        Brand identitet  </h6>
+                    <h6 class="text-center text-primary">Fra 6500,-</h6>
+                    <h6 class="text-center">SoMe templates</h6>
+                    <h6 class="text-center text-primary">Fra 800,-</h6>
+
+            </div>
+            <div class="col-lg-3 col-xs-12">
+                <img alt="digital" src="img/ikoner/print.png" class="img-responsive">
+                <p>Lad også de fysiske produkter fremstå troværdige og professionelle, så du sikrer en klar og tydelig branding trænger igennem det helt rette budskab. Fang kundernes opmærksomhed og fasthold den!</p>
+                <h6 class="text-center">Bogomslag design <br>
+                    Visitkort design</h6>
+                <h6 class="text-center text-primary">Fra 2000,-</h6>
+                <h6 class="text-center">Trykte medier</h6>
+                <h6 class="text-center text-primary">Fra 1500,-</h6>
+            </div>
+
+            <div class="col-lg-3 col-xs-12">
+                <img alt="digital" src="img/ikoner/motiongraphics.png" class="img-responsive">
+                <p>Video fanger din, min og din målgruppes opmærksomhed, på en helt anden måde end stilbilleder og tekst gør.
+                    Giv din virksomhed liv med motion graphics videoer, logo animationer og meget mere!</p>
+                    <h6 class="text-center">SoMe Video <br>
+                        Motion Graphics</h6>
+                    <h6 class="text-center text-primary">Fra 1800,-</h6>
+                    <h6 class="text-center">Logo animation</h6>
+                    <h6 class="text-center text-primary">Fra 3500,-</h6>
+            </div>
+        </div>
+        <div class="row text-center">
+            <button type="button" class="btn btn-primary btn-lg" onclick="ydelser()">SE MERE</button>
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-primary section">
+        <div class="row">
+            <div class="col-lg-2 col-xs-1"></div>
+
+            <div class="col-lg-8 col-xs-12">
+                <h2 class="text-primary text-center ">Få et uforpligtende tilbud</h2>
+                <h2 class="text-primary text-center ">Eller en snak om netop dine problemstillinger</h2>
+                <p class="text-center">Jeg kan hjælpe med en bred palette af multimedie og 
+                    design faglige problemstillinger. Kontakt mig og lad os
+                    se nærmere på dit udgangspunkt og hvordan jeg kan hjælpe.</p>
+             
+
+            <div class="col-lg-3 col-xs-1"></div>
+        </div>
+    </section>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

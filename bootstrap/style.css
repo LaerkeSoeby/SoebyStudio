@@ -1,6 +1,9 @@
 .header{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 100px;
+}
+
+.landing-img-mobile{
+    display: none;
 }
 
 .om-img{
@@ -10,6 +13,30 @@
 .section{
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.fact{
+    margin-bottom: 100px;
+}
+
+.wreath{
+    font-family: "wreath", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+}
+
+.ikon-række{
+    margin-top: 70px;
+}
+
+.custom-btn{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.ellen-img{
+    max-height: 600px;
 }
 
 .tlf{
@@ -29,3 +56,49 @@ margin-top: 150px;
 .ydelse-p{
     margin-left: 170px;
 }
+
+.aktiv{
+    color: black;
+}
+
+.titler{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.cta-tagline{
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+.zoom{
+
+transition: transform .2s; /* Animation */
+  
+}
+
+.margin-bund{
+margin-bottom: 50px;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media (max-width: 1550px) {
+    .landing-img {
+      margin-top: 60px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .landing-img {
+      display: none;
+    }
+    
+    .landing-img-mobile{
+    display: block;
+    }
+  }
+
+  

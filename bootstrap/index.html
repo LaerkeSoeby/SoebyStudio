@@ -18,6 +18,7 @@
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
   <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/zev0pxw.css">
 </head>
 
 <body>
@@ -66,31 +67,32 @@
   <section class="bg-primary text-center">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-5 col-md-4 col-xs-10">
-          <img alt="Lærke Søby" src="img/landing/pic.png" class="img-responsive">
+        <div class="col-lg-4 col-md-5 col-xs-10">
+          <img alt="Lærke Søby" src="img/landing/pic.png" class="img-responsive landing-img">
         </div>
-        <div class="col-lg-6 col-md-6 col-xs-12 header">
-          <h1 class="text-primary">Forståelse for din virksomhed
+        <div class="col-lg-7 col-md-6 col-xs-12 header">
+          <h1 class="text-primary titler">Forståelse for din virksomhed
             og velovervejet kreativitet</h1>
           <h3>Med et naturligt helikoptersyn og
             en hjerne der tænker hele vejen rundt</h3>
-          <h3 class="text-primary">Hvordan skal din virksomhed skille sig ud?</h3>
+          <h3 class="text-primary cta-tagline">Hvordan skal din virksomhed skille sig ud?</h3>
           <div>
-            <button type="button" class="btn btn-primary btn-lg">KONTAKT MIG</button>
+            <button type="button" class="btn btn-primary btn-lg zoom" onclick="kontakt()">KONTAKT MIG</button> 
           </div>
         </div>
-        <div class="col-lg-1 col-md-1">
+        <div class="col-lg-4 col-md-5 col-xs-10">
+          <img alt="Lærke Søby" src="img/landing/pic.png" class="img-responsive landing-img-mobile">
         </div>
       </div>
   </section>
 
-  <section class="section">
-    <div class="col-lg-1"></div>
+  <section class="section container-fluid">
+    <div class="col-lg-1 col-md-1"></div>
     <div class="row">
-      <div class="col-md-10 col-xs-12">
-        <h3 class="text-primary text-center">Vidste du, at vi ser vi op imod 10.000 brands om dagen?</h3>
+      <div class="col-lg-10 col-xs-12">
+        <h3 class="text-primary text-center fact">Vidste du, at vi ser vi op imod 10.000 brands om dagen?</h3>
         <h1 class="text-primary">Lad din virksomhed nå nye højder</h1>
-        <h1 class="text-primary">Få hjælp til branding</h1>
+        <h1 class="text-primary wreath">Få hjælp til branding</h1>
         <h3>Jeg kan hjælpe dig med den visuelle kommunikation af din forretning.
           Uanset om du har brug for en unik brand identitet, digitale designløsninger eller fængende videoer, kan jeg
           konceptualisere idéerne om til realitet.
@@ -98,21 +100,22 @@
           <b>Lad mine løsninger hjælpe din virksomhed til næste niveau.</b>
         </h3>
 
-        <div class="col-lg-3 col-xs-6">
+      <div class="ikon-række">
+        <div class="col-lg-3 col-md-3 col-xs-6">
           <img alt="digital" src="img/ikoner/digital.png" class="img-responsive">
         </div>
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-md-3 col-xs-6">
           <img alt="digital" src="img/ikoner/branding.png" class="img-responsive">
         </div>
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-md-3 col-xs-6">
           <img alt="digital" src="img/ikoner/print.png" class="img-responsive">
         </div>
-        <div class="col-lg-3 col-xs-6">
+        <div class="col-lg-3 col-md-3 col-xs-6">
           <img alt="digital" src="img/ikoner/motiongraphics.png" class="img-responsive">
         </div>
-
+      </div>
         <div class="text-center">
-          <button type="button" class="btn btn-primary btn-lg">SE MERE</button>
+          <button type="button" class="btn btn-primary btn-lg zoom custom-btn" onclick="ydelser()">SE MERE</button>
         </div>
 
       </div>
@@ -123,10 +126,11 @@
 
   <section class="bg-primary section">
     <div class="row">
-      <div class="col-lg-4 col-xs-8">
-        <img alt="Ellen Elsnab - Brand New Day" src="img/ellen.jpg" class="img-responsive">
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <img alt="Ellen Elsnab - Brand New Day" src="img/ellen.jpg" class="img-responsive container-fluid ellen-img">
       </div>
-      <div class="col-lg-6 col-xs-12">
+      <div class="col-lg-1 col-xs-1"></div>
+      <div class="col-lg-5 col-md-6 col-xs-10">
         <h3>"Jeg har fået inspiration ud af at se, hvordan bureauet har arbejdet med mine problemstillinger. <b>Det har
             været med til, at jeg er blevet mere afklaret om mine valg og bevidst om min brand position.</b> De har også
           været gode til at flytte en ”digital dino” og efterleve mit ønske om konkrete anbefalinger til, hvordan jeg
@@ -134,7 +138,8 @@
           ønsker,,
         </h3>
         <br>
-        <h2 class="text-primary text-center">Ellen Elsnab <br> Brand New Day</h2>
+        <h2 class="text-primary text-center wreath">Ellen Elsnab</h2> 
+        <h2 class="text-primary text-center">Brand New Day</h2>
       </div>
     </div>
   </section>
@@ -146,6 +151,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
