@@ -99,6 +99,16 @@ margin-bottom: 50px;
     .landing-img-mobile{
     display: block;
     }
+
+    .ydelse-ikon{
+   width: 50%;
+   margin-left: -50px;
+   margin-bottom: 25px;
+    }
+
+    .ydelse-p{
+        margin-left: 0px;
+    }
   }
 
   
