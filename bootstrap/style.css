@@ -97,6 +97,37 @@ margin-bottom: 50px;
   transform: scale(1.1); 
 }
 
+.fakta{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box-a{
+    background-color: #EFFAFD;
+    margin: 20px;
+    padding: 20px;
+    height: 250px;
+}
+
+.box-b{
+    background-color: #EFFAFD;
+    padding: 10px;
+}
+
+.box-c{
+    background-color: #EFFAFD;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-d{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
 @media (max-width: 1550px) {
     .om-img {
         margin-top: 100px;
