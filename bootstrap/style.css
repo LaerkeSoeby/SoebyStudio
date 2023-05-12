@@ -58,7 +58,7 @@ margin-top: 150px;
 }
 
 .aktiv{
-    color: black;
+    border-bottom: 1.5px solid #F84F01;
 }
 
 .titler{
@@ -84,19 +84,43 @@ li span {
     color: black;
 }
 
-.zoom{
-
-transition: transform .2s;
-  
-}
-
 .margin-bund{
-margin-bottom: 50px;
+    margin-bottom: 50px;
+    }
+
+.zoom{
+transition: transform .2s;  
 }
 
 .zoom:hover {
   transform: scale(1.1); 
 }
+
+.understreg{
+    transition: transform .2s;  
+    }
+    
+.understreg:hover {
+      transform: scale(1.1);
+}
+
+/*https://codepen.io/jstn/pen/mdoOZJ brugt til underline animation:*/
+.understreg:after{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1.5px;
+    left: 10%;
+    position: absolute;
+    background: #F84F01;
+    transition:  0.5s ease 0s, left 0s ease 0.5s;
+    width: 0;
+  }
+  .understreg:hover:after { 
+    width: 80%; 
+    left: 10%; 
+  }
 
 .fakta{
     background-color: white;
@@ -185,6 +209,13 @@ margin-bottom: 50px;
     .landing-img {
         margin-top: 215px;
       }
+    
+      .navbar-fixed-top .navbar-collapse,
+      .navbar-static-top .navbar-collapse,
+      .navbar-fixed-bottom .navbar-collapse {
+        padding-right: 0;
+        padding-left: 30%;
+      }
   }
 
 
@@ -225,6 +256,26 @@ margin-bottom: 50px;
         margin-top: 100px;
         margin-left: 45%;
       }
+
+      .navbar-fixed-top .navbar-collapse,
+      .navbar-static-top .navbar-collapse,
+      .navbar-fixed-bottom .navbar-collapse {
+        padding-right: 0;
+        padding-left: 25%;
+      }
+  }
+
+  @media (max-width: 767px) {
+  .aktiv{
+    border-bottom: 1.5px solid #F84F01;
+    width: 20%;
+    left: 40%;
+}
+
+.navbar-default .navbar-nav > li > a{
+    position: relative;
+    text-align: center;
+}
   }
 
   @media (max-width: 665px) {
