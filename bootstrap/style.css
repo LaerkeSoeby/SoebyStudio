@@ -17,6 +17,8 @@
 
 .fact{
     margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 .wreath{
@@ -165,6 +167,51 @@ transition: transform .2s;
 #toTop img{
   background-color: none;
   height: 30px;
+}
+
+.animation {
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 0.5s, transform 1s;
+  }
+  .animation.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.kasse{
+    opacity: 0;
+}
+
+  .fadein {
+	animation-name: fadein;
+	animation-fill-mode: both;
+	animation-duration: 500ms;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+		transform: translateY(50%);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.anden {
+	animation-delay: 200ms;
+}
+
+.tredje {
+	animation-delay: 400ms;
+}
+
+.fjerde {
+	animation-delay: 600ms;
 }
 
 @media (max-width: 1550px) {
