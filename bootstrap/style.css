@@ -183,6 +183,7 @@ transition: transform .2s;
     opacity: 0;
 }
 
+/* Inspiration fra https://codepen.io/Travisaurus-Rex/pen/pEoMEr*/
   .fadein {
 	animation-name: fadein;
 	animation-fill-mode: both;
