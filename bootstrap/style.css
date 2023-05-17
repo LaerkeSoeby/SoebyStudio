@@ -202,10 +202,6 @@ transition: transform .2s;
 .drop-in-2 {
     animation: drop-in 800ms ease 400ms backwards;
 }
-
-.drop-up {
-    animation: drop-up 1000ms ease 1000ms backwards;
-}
    
 @keyframes drop-in {
     from {
@@ -216,6 +212,10 @@ transition: transform .2s;
      opacity: 1;
      transform: translate(0px);
     }
+}
+
+.drop-up {
+    animation: drop-up 1000ms ease 1000ms backwards;
 }
 
    @keyframes drop-up {
