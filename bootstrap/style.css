@@ -191,6 +191,44 @@ transition: transform .2s;
 	animation-timing-function: ease-in-out;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+   }
+   
+.drop-in {
+    animation: drop-in .8s ease 200ms backwards;
+}
+   
+.drop-in-2 {
+    animation: drop-in 800ms ease 400ms backwards;
+}
+
+.drop-up {
+    animation: drop-up 1000ms ease 1000ms backwards;
+}
+   
+@keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-80px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+}
+
+   @keyframes drop-up {
+    from {
+     opacity: 0;
+     transform: translateY(80px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+   }
+
 @keyframes fadein {
 	0% {
 		opacity: 0;
@@ -348,8 +386,24 @@ transition: transform .2s;
 
   @media (max-width: 512px) {
     .om-img {
-        margin-left: 30px;
+        height: 300px;
       }
+
+      .header-mobile{
+        margin-top: 50px;
+      }
+
+    .margin-top{
+        margin-top: 35px;
+    }
+
+    html{
+        width: 100%;
+    }
+
+.container-fluid {
+    width: 100%;
+}
   }
 
   

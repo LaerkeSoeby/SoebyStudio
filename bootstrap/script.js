@@ -49,7 +49,8 @@ $(window).scroll(function() { //Funktionen bliver kørt når man scroller. ($ = 
           duration: 800,
           easing: 'swing', // starter langsomt, accelererer midt i animationen, og bliver langsommere til slut.
           step: function() { 
-            $this.text(Math.floor(this.countNum)); //Er en funktion som bliver kaldt for hvert step af animationen. Den opdaterer elementets tekst med bundværdien af this.countNum (så den ikke laver kommatal).
+            $this.text(Math.floor(this.countNum)); //Er en funktion som bliver kaldt for hvert step af animationen. Den opdaterer elementets tekst med bundværdien af this.countNum 
+                                                  //(så den ikke laver kommatal).
           },
           complete: function() {
             $this.text(this.countNum); //Funktionen kaldes når animationen er færdig. Og sætter slut-værdien (10000) i tekst til this.countNum.
