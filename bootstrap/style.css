@@ -215,7 +215,7 @@ transition: transform .2s;
 }
 
 .drop-up {
-    animation: drop-up 1000ms ease 1ks000ms backwards;
+    animation: drop-up 1000ms ease 1000ms backwards;
 }
 
    @keyframes drop-up {
